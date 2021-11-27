@@ -1,7 +1,8 @@
+server:
+  port: 8054
 spring:
   application:
     name: world-address
-  port: 8054
   jpa:
     show-sql: true
     defer-datasource-initialization: true

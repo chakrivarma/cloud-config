@@ -1,7 +1,8 @@
+server:
+  port: 8055
 spring:
   application:
     name: vendors
-  port: 8055
   security:
     user:
       name: admin
