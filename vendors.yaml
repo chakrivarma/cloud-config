@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: vendors
+  port: 8055
+  security:
+    user:
+      name: admin
+      password: admin
+  jpa:
+    show-sql: true
+    defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
